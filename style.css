@@ -148,6 +148,7 @@ word-spacing: 8px;
     width: 380px;
 }
 .card{
+    overflow:hidden;
     border-radius: 12px;
     box-shadow: inset 0px -1px 20px 1px #fff;
     background: #1c222a;
