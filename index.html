@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio WebSite</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <!-- <div class="header">
+        <div class="logo">
+            <a href="#home">LOGO HERE</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#blog">BLOGS </a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div> -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">BLOGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Landing Page Section -->
+    <div class="container-fluid" id="home">
+      <div class="row">
+        <div class="col-md-5 order-md-2 right">
+          <img
+            src="./images/landing.png"
+            height="300"
+            class="img-fluid landing"
+            alt="landing"
+          />
+        </div>
+        <div class="col-md-7 pt-3 pb-4 order-md-1 left">
+          <h3>HELLO, MY NAME IS</h3>
+          <h1>AVIJIT DAS</h1>
+          <h2>I AM Web Developer</h2>
+          <p class="pb-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis
+          </p>
+          <a href="#contact"><button class="btn">Contact Us</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- SERVICES Section -->
+    <div class="container-fluid mb-4" id="service">
+      <h1 class="center hi">MY SERVICES</h1>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="cards">
+            <div class="card">
+              <h2>Figma Design</h2>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Praesentium quo nulla omnis. Quaerat, laudantium tenetur.
+              </p>
+              <button class="btn">Click Here</button>
+            </div>
+            <div class="card">
+              <h2>Front-end Web Design</h2>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Praesentium quo nulla omnis. Quaerat, laudantium tenetur.
+              </p>
+              <button class="btn">Click Here</button>
+            </div>
+            <div class="card">
+              <h2>Back-end Web Design</h2>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Praesentium quo nulla omnis. Quaerat, laudantium tenetur.
+              </p>
+              <button class="btn">Click Here</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Section -->
+    <div class="container-fluid mb-4" id="portfolio">
+      <h1 class="center hi">My PORTFOLIO</h1>
+      <div class="row">
+        <div class="cards">
+          <div class="card">
+            <img src="/images/portfolio-1.jpg" alt="" />
+            <h2>LOREM IPSUM</h2>
+            <button class="btn">SOURCE CODE</button>
+          </div>
+          <div class="card">
+            <img src="/images/portfolio-2.jpg" alt="" />
+            <h2>LOREM IPSUM</h2>
+            <button class="btn">SOURCE CODE</button>
+          </div>
+          <div class="card">
+            <img src="/images/portfolio-3.jpg" alt="" />
+            <h2>LOREM IPSUM</h2>
+            <button class="btn">SOURCE CODE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section -->
+    <div class="container-fluid" id="about">
+      <h1 class="center hi">ABOUT ME</h1>
+      <div class="row pro">
+        <div class="col-md-5">
+          <div class="div-mid profile">
+            <img src="/images/profile.jpg" alt="profile" />
+            <h2>Full Stack WebSite Designer</h2>
+            <h2>
+              <span> {Front-end + Back-end} </span>
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-7 mb-4">
+          <div class="div-mid profile-des text-center">
+            <h2>My Name is <span id="name">Avijit Das</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectet adipisicing elit. Dolorem
+              velit aperiam fuga minima eos ut ex laboriosam ex plicabo
+              consectetur deserunt!
+            </p>
+            <p class="center">Visit My Profile</p>
+            <div class="social-media">
+              <div class="social">
+                <img src="/images/facebook.png" alt="facebook" />
+              </div>
+              <div class="social">
+                <img src="/images/linkedin.png" alt="linkedin" />
+              </div>
+              <div class="social">
+                <img src="/images/youtube.png" alt="youtube" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Section -->
+    <div class="container-fluid mb-4" id="blog">
+      <h1 class="center hi">MY BLOGS</h1>
+      <div class="row">
+        <div class="cards">
+          <div class="card">
+            <div class="blog-image">
+              <img src="/images/blog-image.jpg" class="img-fluid" alt="" />
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectet adipisicing elit. Dolorem
+                velit aperiam fuga minima eos ut ex laboriosam ex plicabo
+                consectetur deserunt!
+              </p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="blog-image">
+              <img src="/images/blog-image.jpg" class="img-fluid" alt="" />
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectet adipisicing elit. Dolorem
+                velit aperiam fuga minima eos ut ex laboriosam ex plicabo
+                consectetur deserunt!
+              </p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="blog-image">
+              <img src="/images/blog-image.jpg" class="img-fluid" alt="" />
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectet adipisicing elit. Dolorem
+                velit aperiam fuga minima eos ut ex laboriosam ex plicabo
+                consectetur deserunt!
+              </p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact us -->
+    <div class="container-fluid mb-4" id="contact">
+      <h1 class="center hi">Contact Us</h1>
+      <div class="row">
+        <div class="col-md-5 text-center">
+          <img src="/images/contact.png" class="img-fluid landing1 contact-image" alt="contact" />
+        </div>
+        <div class="col-md-7 contact text-center">
+          <form action="">
+            <label for="Name">NAME:</label>
+            <input type="text" placeholder="Enter Your Name" /><br /><br />
+            <label for="Email">EMAIL:</label>
+            <input type="email" placeholder="Enter Your Email" /><br /><br />
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="social-media">
+        <div class="social">
+          <img src="/images/facebook.png" alt="facebook" />
+        </div>
+        <div class="social">
+          <img src="/images/linkedin.png" alt="linkedin" />
+        </div>
+        <div class="social">
+          <img src="/images/youtube.png" alt="youtube" />
+        </div>
+      </div>
+
+      <h3 class="center">© All Rights Reserved 2015 - 2023 | Avijit Das</h3>
+    </div>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./popper.min.js"></script>
+  </body>
+</html>

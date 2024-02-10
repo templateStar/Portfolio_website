@@ -1,0 +1,379 @@
+/* Common Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+    scroll-behavior: smooth;
+    font-family: Tahoma;
+    background: #111122;
+    color: #fff!important;
+}
+
+span{
+    color: #eba00a;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+#name{
+    font-size: 2rem;
+}
+.center{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn{
+    box-shadow: 2px -1px 18px 1px #fff;
+    padding: 12px;
+    border-radius: 12px;
+    background: #e79c06;
+    color: #000;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.btn:hover{
+    box-shadow: -3px -1px 18px 1px #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    padding: 13px;
+}
+.row{
+    display: flex;
+}
+/*Header Section */
+.header{
+    /* padding: 12px; */
+    background:#6060af;
+    /* display: flex; */
+    color: #fff;
+}
+.footer{
+    
+    padding: 12px;
+    padding-top: 25px;
+    background:#6060af;
+}
+
+.header .logo{
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.bg-body-tertiary{
+    background:#6060af!important;
+    color: #fff!important;
+    /* margin:auto 7rem auto auto; */
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+}
+nav ul li a:hover,.active{
+    color: #fff!important;
+    border-radius: 12px;
+    background:#4b4b81;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    border-right: 2px solid;
+    color: #fff;
+}
+.nav-link{
+    padding: 10px;
+    font-weight: 800;
+color: #fff;
+}
+nav ul li a{
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 12px;
+    margin-right: 10px;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+/* landing page */
+.left{
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.left h3{
+    word-spacing: 10px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.left h1{
+    font-size: 70px;
+font-weight: 800;
+margin-bottom: 2px;
+}
+.left h2{
+color: #b88012;
+word-spacing: 8px;
+    margin-bottom: 10px;
+
+}
+.left p{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 100;
+}
+/* Card Section */
+.cards{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hi{
+    font-size: 50px;
+    font-weight: 700;
+}
+.para{
+    width: 380px;
+}
+.card{
+    border-radius: 12px;
+    box-shadow: inset 0px -1px 20px 1px #fff;
+    background: #1c222a;
+    padding: 25px;
+    color: #fff;
+}
+.card h2{
+    margin-top: 10px;
+    font-size:30px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.card p{
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+/* About Section */
+.profile{
+    text-align: center;
+}
+.profile img{
+    margin-bottom: 12px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+}
+.profile-des{
+    /* padding-right: 80px; */
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: auto;
+    line-height: 30px;
+}
+.profile-des h2{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.profile-des p{
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.pro{
+    justify-content: space-around;
+}
+/* Social Media Section */
+.social-media{
+display: flex;
+gap: 12px;
+justify-content: center;
+}
+.social:hover{
+    background: #fdfdfd;
+}
+.social{
+    padding: 10px;
+    background: #e79c06;
+border-radius: 50%;
+cursor: pointer;
+}
+/* Blog Section */
+.social img{
+    vertical-align: middle;
+}
+.blog-image{
+    width: 380px;
+}
+.blog-image h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blog-image p{
+    margin-bottom: 18px;
+}
+.img-fluid{
+    max-width: 100%;
+    max-height: 100%;
+}
+.landing{
+    height: 450px!important;
+}
+.landing1{
+    width: 450px!important;
+    height: 300px;
+}
+/* Contact Section */
+.contact{
+    /* width: 100%; */
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.contact form{
+    margin-top: auto;
+    margin-bottom: auto;
+    /* width: 200%; */
+  vertical-align: middle;
+}
+.contact input{
+    margin-bottom: 24px;
+width: 100%;
+padding: 12px;
+border-radius: 12px;
+}
+.contact-image{
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.contact-image img{
+    max-width: 100%;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    .navbar-nav{
+        margin-right: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .navbar-nav{
+        margin-right: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .navbar-nav{
+        margin-top: 20px;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    li{
+        border-right: none;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .navbar-nav{
+        margin-top: 20px;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        border-right: none;
+    }
+
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .navbar-nav{
+        margin-top: 20px;
+    }
+    #home,#service,#portfolio{
+        text-align: center!important;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        border-right: none;
+    }
+    .contact{
+        width: 100%;
+            }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .navbar-nav{
+        margin-top: 20px;
+    }
+    #home,#service,#portfolio{
+        text-align: center!important;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        border-right: none;
+    }
+    .contact{
+        width: 100%;
+            }
+  }
