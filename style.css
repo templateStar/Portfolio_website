@@ -141,14 +141,10 @@ word-spacing: 8px;
     align-items: center;
 }
 .hi{
-    font-size: 50px;
+    font-size: 2.9rem;
     font-weight: 700;
 }
-.para{
-    width: 380px;
-}
 .card{
-    overflow:hidden;
     border-radius: 12px;
     box-shadow: inset 0px -1px 20px 1px #fff;
     background: #1c222a;
@@ -214,9 +210,6 @@ cursor: pointer;
 /* Blog Section */
 .social img{
     vertical-align: middle;
-}
-.blog-image{
-    width: 380px;
 }
 .blog-image h3{
     font-size: 30px;
