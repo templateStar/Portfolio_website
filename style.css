@@ -4,11 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 body{
     scroll-behavior: smooth;
     scroll-padding: 10rem;
     scroll-behavior: smooth;
-    font-family: Tahoma;
+    font-family: "Lato", sans-serif;
     background: #111122;
     color: #fff!important;
 }
@@ -112,7 +117,6 @@ nav ul li:last-child{
 }
 .left h3{
     word-spacing: 10px;
-    font-weight: 200;
     font-size: 20px;
     margin-bottom: 5px;
 }
@@ -122,7 +126,7 @@ font-weight: 800;
 margin-bottom: 2px;
 }
 .left h2{
-color: #b88012;
+color: #efa30e;
 word-spacing: 8px;
     margin-bottom: 10px;
 
@@ -130,7 +134,6 @@ word-spacing: 8px;
 .left p{
     margin-bottom: 20px;
     font-size: 24px;
-    font-weight: 100;
 }
 /* Card Section */
 .cards{
@@ -333,7 +336,7 @@ border-radius: 12px;
     .navbar-nav{
         margin-top: 20px;
     }
-    #home,#service,#portfolio{
+    #home,#service,#portfolio,#blog{
         text-align: center!important;
     }
     .nav-item{
@@ -358,7 +361,7 @@ border-radius: 12px;
     .navbar-nav{
         margin-top: 20px;
     }
-    #home,#service,#portfolio{
+    #home,#service,#portfolio,#blog{
         text-align: center!important;
     }
     .nav-item{
